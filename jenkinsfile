@@ -7,18 +7,6 @@ pipeline {
                 echo 'hello world'
             }
         }
-        stage('GIT'){
-            steps {
-                echo 'Getting project from git';
-            }
-        }
-        stage('MVN CLEAN'){
-            steps{
-                sh '...............'
-            }
-        }
-        stage ('MVN COMPILE'){
-            steps{
-        }
+        
     }
 }
